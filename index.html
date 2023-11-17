@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SignUP & LogIn</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
@@ -14,13 +15,17 @@
           <img src="./login-logo.png" alt="Logo" />
         </div>
         <form action="">
-          <div>
+          <div id="UserName">
             <labe>Email or Username</labe>
-            <input type="text" class="text-input" />
+            <input type="text" class="text-input" id="textUsername" />
+            <button type="button"  class="close" aria-label="Close" id="clearText" >
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-          <div>
+          <div id="password">
             <label>Password</label>
-            <input type="password" class="text-input" />
+            <input type="password" class="text-input" id="textPassword" />
+            <i class="bi bi-eye-slash" id="togglePassword"></i>
           </div>
           <button type="submit" class="primary-btn">Sign in</button>
         </form>
@@ -50,5 +55,6 @@
         </div>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>

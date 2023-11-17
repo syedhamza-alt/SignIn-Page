@@ -66,6 +66,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
+
 /* Button */
 #signin .primary-btn{
     width: 100%;
@@ -166,6 +167,14 @@ h1,h2,h3,h4,h5,h6{
 #showcase .secondary-btn{
     width: 60%;
     margin: auto;
+}
+#password i{
+    margin-left: -30px;
+    cursor: pointer;
+}
+#UserName button{
+    margin-left: -30px;
+    cursor: pointer;
 }
 
 /* Media Query */
