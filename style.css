@@ -190,7 +190,7 @@ h1,h2,h3,h4,h5,h6{
         cursor: pointer;
     }
         #UserName button{
-        margin-left: -50px;
+        margin-left: -30px;
         cursor: pointer;
     }
 }
@@ -224,6 +224,8 @@ h1,h2,h3,h4,h5,h6{
     cursor: pointer;
 }
     #UserName button{
+    position: relative;
+   
     margin-left: -50px;
     cursor: pointer;
 }
