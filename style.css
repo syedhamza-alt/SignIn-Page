@@ -29,18 +29,8 @@ h1,h2,h3,h4,h5,h6{
     flex-direction: column;
     flex:1;
 }
-#singin{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    padding-bottom: 1rem;
-}
-#singin form{
-    width: 80%;
-    padding-bottom: 3rem ;
-}
+
+
 #signin .logo{
     margin-bottom: 8vh;
 }
@@ -225,6 +215,7 @@ h1,h2,h3,h4,h5,h6{
 }
     #UserName button{
     position: relative;
+    display: inline;
    
     margin-left: -50px;
     cursor: pointer;
